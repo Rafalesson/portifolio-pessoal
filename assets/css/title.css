@@ -1,0 +1,65 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem ;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title__bio{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    
+}
+
+.title__bio__p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.title__bio__p strong{
+    font-weight: bold;
+}
+
+.title__subsection{
+    margin-bottom: 1rem;
+    line-height: 1.25;
+    font-size: 1.15rem;
+    max-width: 60vw;
+}
+
+.title__network{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.title__network__item{
+    border-bottom: 2px solid transparent; 
+    transition: all .6s ease;
+}
+
+.title__network__item:hover{
+    border-bottom: 2px solid #104050;
+}
+
+.title__profile{
+    max-width: 320px;
+    max-height: 320px;
+    border-radius: 50%;
+    align-self: center;
+    border: 2px dotted #104050;
+    padding: 1rem;
+}
+
+.title__profile:hover{
+    border: 2px solid #104050;
+}
+
