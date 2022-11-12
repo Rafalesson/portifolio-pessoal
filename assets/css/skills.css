@@ -1,0 +1,79 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 4rem;
+}
+
+.skills__title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    align-self: center;
+    padding-top: 2rem;
+}
+
+.skills__title:hover{
+    color: black;
+}
+
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills__box{
+    width: calc(100% / 3 - 3rem);
+    padding: 1rem;
+    height: 20vh;
+    background: #fff;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills__box ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: .5rem;
+    align-self: flex-start;
+    
+}
+
+.html{
+    background: url("../img/html_icon.svg");
+}
+
+.boot{
+    background: url("../img/boot.svg");
+}
+
+.js{
+    background: url("../img/js_icon.svg");
+}
+
+.nodejs{
+    background: url("../img/node_icon.svg");
+}
+
+.react{
+    background: url("../img/react_icon.svg");
+}
+
+.java{
+    background: url("../img/java_icon.svg");
+}
+
+.skills__name{
+   font-size: 1.15rem;
+   font-weight: bold;
+}

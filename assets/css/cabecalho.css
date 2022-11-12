@@ -20,6 +20,10 @@
     font-size: 1.25rem;
 }
 
+.menu__h1:hover{
+    color: black;
+}
+
 .menu__list{
     display: flex;
     justify-content: space-between;
@@ -38,5 +42,6 @@
 }
 
 .menu__list__item:hover{
-    border-bottom: 2px solid #104050;
+    border-bottom: 2px solid #3765af;
+    color: black;
 }
