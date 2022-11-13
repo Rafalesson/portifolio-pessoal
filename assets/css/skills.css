@@ -23,7 +23,7 @@
 }
 
 .skills__box{
-    width: calc(100% / 3 - 3rem);
+    width: calc(100% / 6 - 3rem);
     padding: 1rem;
     height: 20vh;
     background: #fff;
