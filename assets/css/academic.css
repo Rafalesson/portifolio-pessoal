@@ -1,6 +1,5 @@
 .academic{
     display: flex;
-    flex-direction: column;
     background: #EAF2FD;
 }
 
@@ -20,11 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 4rem 4rem 4rem;
-}
-
-.academic__courses__box{
-    width: calc(100% / 3 - 1rem);
+    
 }
 
 .academic__courses__list{
@@ -47,7 +42,35 @@
     font-size: .9rem;
 }
 
+@media screen and (min-width: 0) {
+    .academic{
+        flex-direction: column;
+    }
+
+    .academic__courses__box{
+        width: 100%;
+        margin: 1rem 2rem;
+    }
+
+    .academic__courses__list{
+        height: 20vh;
+    }
+
+    .academic__courses__item__img{
+        width: 10rem;
+    }
+}
+
 @media screen and (min-width: 768px){
+    .academic__courses{
+        margin: 0 4rem 4rem 4rem;
+    }
+
+    .academic__courses__box{
+        width: calc(100% / 3 - 1rem);
+        margin: 0;
+    }
+
     .academic__courses__list{
         height: 20vh;
     }

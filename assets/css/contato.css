@@ -1,6 +1,5 @@
 .formcontato{
     background: #EAF2FD;
-    padding: 2rem 4rem;
 }
 
 .formcontato__contacto{
@@ -76,7 +75,25 @@
     background: #1B4F72;
 }
 
+@media screen and (min-width: 0) {
+    .formcontato{
+        padding: 1rem 2rem;
+    }
+
+    .formcontato__text{
+        width: 100%;
+    }
+
+    .formcontato__botao{
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 768px) {
+    .formcontato{
+        padding: 2rem 4rem;
+    }
+
     .formcontato__img{
         display: none;
     }  

@@ -1,6 +1,5 @@
 .about{
     background: #EAF2FD;
-    padding: 3rem 4rem ;
 }
 
 .about__title{
@@ -21,4 +20,47 @@
 
 .about__paragraph:hover{
     color: black;
+}
+
+@media screen and (min-width: 0) {
+    .about{
+        width: calc(100% - 4rem);
+        padding: 1rem 2rem;
+    }
+    
+    .about__title{
+        font-size: 1.15rem;
+    }
+    
+    .about__paragraph{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .about{
+        padding: 2rem 4rem;
+    }
+    
+    .about__title{
+        font-size: 2rem;
+    }
+    
+    .about__paragraph{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .about{
+        padding: 7rem 4rem 4rem 4rem;
+    }
+    
+    .about__title{
+        font-size: 2.5rem;
+    }
+    
+    .about__paragraph{
+        max-width: 80%;
+    }
 }

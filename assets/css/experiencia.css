@@ -1,6 +1,5 @@
 .experience{
     display: flex;
-    flex-direction: column;
 }
 
 .experience__section__title{
@@ -13,7 +12,7 @@
 
 .experiencie__box{
     display: flex;
-    margin: 2rem 4rem;
+
 }
 
 .experience__img{
@@ -40,7 +39,6 @@
     font-weight: 400;
     padding-bottom: 1rem;
     line-height: 1.5;
-    max-width: 50vw;
 }
 
 .experience__description{
@@ -76,11 +74,29 @@
 
 }
 
+@media screen and (min-width: 0) {
+    .experience{
+        flex-direction: column;
+    }
+
+    .experience__img{
+        width: 100%;
+        margin-bottom: 1rem;
+        order: -1;
+    } 
+
+    .experiencie__box{
+        flex-direction: column;
+        margin: 1rem 2rem;
+    }
+}
+
 @media screen and (min-width: 768px){
     .experiencie__box{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        margin: 2rem 4rem;
     }
 
     .experience__img{
@@ -90,6 +106,10 @@
     .experience__info {
         order: 1;
         padding: 2rem 0 1rem 0;
+    }
+
+    .experience__text{
+        max-width: 50vw;
     }
 }
 
@@ -102,6 +122,7 @@
 
     .experience__img{
         width: 80%;
+        order: 0;
     }
 
     .experience__info {
