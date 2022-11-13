@@ -73,3 +73,7 @@
     cursor: pointer;
     width: 25%;
 }
+
+.formcontato__botao:hover{
+    background: #1B4F72;
+}
