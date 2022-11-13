@@ -3,7 +3,6 @@
 }
 
 .formcontato__contacto{
-    padding: 2rem 0;
     display: flex;
 }
 
@@ -59,14 +58,12 @@
 }
 
 .formcontato__botao{
-    margin-top: 1rem;
     padding: 1rem;
     border: none;
     border-radius: 5px;
     outline: none;
     background: #2E86C1;
     color: #fff;
-    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
 }
@@ -85,7 +82,8 @@
     }
 
     .formcontato__botao{
-        width: 100%;
+        width: fit-content;
+        margin: 1rem 0;
     }
 }
 
@@ -113,7 +111,7 @@
     }
 
     .formcontato__text{
-        flex: 2;
+        flex: auto;
     }
 
     .formcontato__botao{
