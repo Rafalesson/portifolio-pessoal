@@ -67,6 +67,7 @@
 
 .experience__repo:hover{
     cursor: pointer;
+    background: #e9e9e9;
 }
 
 .experience__demo{
@@ -75,5 +76,11 @@
     background-color: #2A7AE4;
     padding: 1rem;
     border-radius: 5px;
+}
+
+.experience__demo:hover{
+    cursor: pointer;
+    background-color: #1B4F72;
+
 }
 
