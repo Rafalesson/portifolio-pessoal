@@ -1,8 +1,27 @@
 .menu{
     display: flex;
+    position: fixed;
+    background: rgba(255, 255, 255, 1);
+    width: calc(100% - 6rem);
     justify-content: space-between;
-    margin: 2rem 4rem;
+    padding: 1.5rem 3rem;
+    border-radius: 20px;
+    opacity: .08;
 }
+
+.menu:hover{
+    opacity: 1;
+}
+
+.vector{
+    display: flex;
+    width: fit-content;
+    position: fixed;
+    padding: 1.5rem 1rem;
+}
+
+
+
 
 .menu__h1{
     display: flex;
@@ -45,16 +64,6 @@
 
 .menu__list__item--contato{
     font-weight: 600;
-    margin-left: 1.25rem;
-}
-
-.menu__list__item--contato:hover{
-    background-image: linear-gradient(to right,rgba(55, 101, 175, .6) 100%,#fff 0);
-    background-position: 0 90%;
-    background-repeat: repeat-x;
-    background-size: 100% 23%;
-    transition: all .15s ease-in-out;
-
     border: none;
 }
 

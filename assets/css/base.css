@@ -1,5 +1,23 @@
-.app{
- background: #f5f5f5;
- font-family: 'Raleway', sans-serif;
- color: #464646;;
+.app {
+  background: #f5f5f5;
+  font-family: "Raleway", sans-serif;
+  color: #464646;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: gainsboro;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3765af;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(55, 101, 175, .5);
 }
