@@ -29,7 +29,6 @@
 
 .academic__courses__list{
     background: #fff;
-    height: 30vh;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
@@ -46,4 +45,24 @@
 
 .academic__courses__item__subtitle{
     font-size: .9rem;
+}
+
+@media screen and (min-width: 768px){
+    .academic__courses__list{
+        height: 20vh;
+    }
+
+    .academic__courses__item__img{
+        width: 10rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .academic__courses__list{
+        height: 30vh;
+    }
+
+    .academic__courses__item__img{
+        width: 15rem;
+    }
 }

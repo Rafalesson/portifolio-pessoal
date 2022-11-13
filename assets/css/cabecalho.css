@@ -75,3 +75,25 @@
     transition: all .15s ease-in-out;
     color: black;
 }
+
+
+@media screen and (max-width: 768px){
+    .menu{
+        opacity: 1;
+        position: static;
+    }
+
+    .menu__list__item{
+        display: none;
+    }
+
+    .menu__list__item--contato{
+        display: block;
+    }
+
+    .vector{
+        display: none;
+    }
+
+}
+    

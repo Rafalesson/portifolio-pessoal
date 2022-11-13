@@ -23,7 +23,6 @@
 .formcontato__text{
     display: flex;
     flex-direction: column;
-    flex: 2;
 }
 
 .formcontato__title{
@@ -71,9 +70,36 @@
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    width: 25%;
 }
 
 .formcontato__botao:hover{
     background: #1B4F72;
+}
+
+@media screen and (min-width: 768px) {
+    .formcontato__img{
+        display: none;
+    }  
+    
+    .formcontato__text{
+        flex: auto;
+    }
+
+    .formcontato__botao{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formcontato__img{
+        display: flex;
+    }
+
+    .formcontato__text{
+        flex: 2;
+    }
+
+    .formcontato__botao{
+        width: 35%;
+    }
 }

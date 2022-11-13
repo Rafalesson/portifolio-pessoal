@@ -1,7 +1,6 @@
 .title{
     display: flex;
     justify-content: space-between;
-    padding: 7rem 4rem 4rem 4rem;
 }
 
 .title__container{
@@ -11,7 +10,6 @@
 }
 
 .title__bio{
-    font-size: 4rem;
     font-weight: 600;
     margin-bottom: 1rem;
     line-height: 1.2;    
@@ -46,7 +44,6 @@
     margin-bottom: 1rem;
     line-height: 1.25;
     font-size: 1.15rem;
-    max-width: 60vw;
 }
 
 .title__subsection:hover{
@@ -83,4 +80,62 @@
 .title__profile:hover{
     border: 2px solid #3765af;
 }
+
+@media screen and (min-width: 768px){
+    .title{
+        padding: 2rem 4rem;
+    }
+
+    .title__profile{
+        max-width: 200px;
+        max-height: 200px;
+        margin-left: 2rem;
+    }
+
+    .title__bio{
+        font-size: 3rem;
+    }
+
+    .title__subsection{
+        max-width: 52vw;
+    }
+
+    .title__network{
+        max-width: 60vw;
+    }
+
+    .vector{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .title{
+        padding: 7rem 4rem 4rem 4rem;
+    }
+
+    .title__bio{
+        font-size: 4rem;
+    }
+
+    .title__profile{
+        max-width: 320px;
+        max-height: 320px;
+    }
+
+    .title__subsection{
+        max-width: 60vw;
+    }
+    
+    .title__network{
+        max-width: 35vw;
+    }
+
+    .vector{
+        display: flex;
+    }
+}
+    
+
 
